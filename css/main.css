@@ -1,0 +1,539 @@
+
+body{
+    background-color: #e4e4e4;
+}
+/* home description text*/
+.description-text{
+
+
+font-family:  'Inconsolata', monospace;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 1.4;
+}
+/* */
+
+/* Logo image  in the home part */
+.home-logo-img{
+    width: 280px;
+}
+/* */
+
+/* Home container */
+.home{
+    margin-top: 5%;
+}
+/*  */
+
+/* Home description container */
+.home-description{
+    position:absolute;
+    left: 35%;
+}
+/*  */
+
+
+/*  */
+.home-row{
+    padding-left: 10%;
+}
+/*Brands Container  */
+.brands{
+    margin-top: 5%;
+}
+/*  */
+
+
+.brands-tittle{
+    font-family:  'Inconsolata', monospace;
+    font-weight: 500;
+    font-size: 20px;
+    
+
+}
+/*Brand wonderly text link  */
+.brand-basis-link , .brand-wonderly-link{
+    
+    font-size: 15px;
+   font-family:  'Inconsolata', monospace;
+}
+
+/*Brand J Studio text link  */
+.brand-Jstudio-link{
+    font-size: 15px;
+   font-family:  'Inconsolata', monospace;
+   color: white;
+
+}
+
+/*Brands  text description  */
+.brand-basis-text , .brand-Jstudio-text , .brand-wonderly-text{
+    font-size: 20px;
+   font-family:  'Inconsolata', monospace;
+}
+
+.brand-bold-txt{
+    
+    font-weight: 900;
+
+
+}
+.brand-basis-img ,   .brand-jStudio-img{
+    width: 90px;
+    height: 120px;
+}
+.brand-wonderly-img{
+    width: 80%;
+}
+.wonderly-card{
+    padding-top: 60%;
+    
+}
+.basis-card{
+    padding-top: 50%;
+    border-style: none;
+    background-color: #d0d0d0;;
+}
+.jStudio-card{
+    padding-top: 50%;
+    border-style: none;
+    background-color:#2a2a2a
+}
+.brand-Jstudio-text{
+    border-style: none;
+    color: white;
+}
+/*Brands  columns */
+.brand-1, .brand-2 , .brand-3{
+    padding-left: 0;
+    padding-right: 0;
+}
+.brands .container{
+    padding-top: 3%;
+}
+.basis-card .card-body{
+    opacity: 0;
+    
+}
+.basis-card:hover .card-body{
+    opacity: 1;
+    transition:opacity .5s;
+}
+.basis-card:hover .brand-basis-img{
+   position: relative;
+   transform: translateY(-10px);
+   transition: 0.9s;
+   opacity: 0.7;
+}
+.basis-card .card-body{
+    transition: 0.9s;
+}
+.wonderly-card{
+   height: 100%;
+}
+.jStudio-card{
+    height: 100%;
+ }
+.wonderly-card .card-body{
+    opacity: 0;
+    
+    
+}
+.wonderly-card:hover .card-body{
+    
+    opacity: 1;
+    transition:opacity .5s;
+}
+.wonderly-card:hover .brand-wonderly-img{
+   position: relative;
+   transform: translateY(-10px);
+   transition: 0.9s;
+   opacity: 0.7;
+}
+.wonderly-card .card-body{
+    transition: 0.9s;
+}
+
+.jStudio-card .card-body{
+    opacity: 0;
+    
+    
+}
+.jStudio-card:hover .card-body{
+   
+    opacity: 1;
+    transition:opacity .5s;
+    
+    
+}
+.jStudio-card:hover .brand-jStudio-img{
+   position: relative;
+   transform: translateY(-10px);
+   
+   transition-duration: 0.8s;
+   opacity: 0.7;
+   
+   
+}
+.jStudio-card .card-body{
+    transition: 0.9s;
+}
+.brand-jStudio-img ,.brand-wonderly-img , .brand-basis-img{
+    transition: 0.8s;
+    transform: translateY(0px);
+    
+}
+/*Staff container  */
+.team{
+    margin-top: 5%;
+    position: relative;
+    
+}
+.team-row{
+    position: relative;
+}
+.team-tittle{
+        
+        font-family:  'Inconsolata', monospace;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .team-name{
+        font-family:  'Inconsolata', monospace;
+        font-weight: 500;
+        font-size: 20px; 
+        color: white;
+    }
+    .team-position{
+        font-size: 15px;
+   font-family:  'Inconsolata', monospace;
+   color: white;
+    }
+   
+   /*Staff  personal description for each one on bottom card  */
+    .team .container .row .team-col-first .card .card-body ,.team-name ,.team-position{
+        font-size: 20px;
+        background-color:#2a2a2a;
+    }
+    .team .container .row .team-col-second .card .card-body{
+        background-color:#2a2a2a;
+    }
+    .team .container .row .team-col-third .card .card-body{
+        background-color:#2a2a2a;
+    }
+    .team .container .row .team-col-fourth .card .card-body{
+        background-color:#2a2a2a;
+    }
+    .team .container .row .team-col-fifth .card .card-body{
+        background-color:#2a2a2a;
+    }
+    .team .container .row .team-col-first .card{
+        background-color: transparent;
+        border-style: none;
+    }
+    .team .container .row .team-col-second .card{
+        background-color: transparent;
+        border-style: none;
+    }
+    .team .container .row .team-col-third .card{
+        background-color: transparent;
+        border-style: none;
+    }
+    .team .container .row .team-col-fourth .card{
+        background-color: transparent;
+        border-style: none;
+    }
+    .team .container .row .team-col-fifth .card{
+        background-color: transparent;
+        border-style: none;
+    }
+    .black-back{
+        opacity: 1;
+        top: 45%;
+        position: absolute;
+        width: 100%;
+        height: 55%;
+        background-color: #2a2a2a;
+        z-index: -1;
+    }
+    
+    .team-col-second{
+        z-index: 9999;
+    }
+    /*Removing spaces on team columns */
+    .team-col-first , .team-col-second , .team-col-third , .team-col-fourth , .team-col-fifth{
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+     /*Stylizing text in footer about */
+    .footer-text{
+        color: #2a2a2ac0;
+        font-weight: 100;
+        font-size: 28px;
+        font-family:  'Inconsolata', monospace;
+        
+    }
+     /*footer container */
+    .footer{
+
+        padding-top: 10%;
+    }
+     /*Copyright container */
+    .copyright{
+        text-align: right;
+        padding-right: 5%;
+    }
+    .footer-bold{
+        color: black;
+    
+        border-bottom-style: inherit;
+    }
+     /*Year in copyright text */
+    .small-copyright{
+        font-size: 12px;
+    }
+    .copyright{
+        padding-top: 10%;
+        float: right;
+        color: #2a2a2ac0;
+    }
+    
+    
+     /* Placing columns on center */
+    @media screen and (max-width: 780px) {
+        .team .container .row .team-col-first{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .team .container .row .team-col-second{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .team .container .row .team-col-third{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .team .container .row .team-col-fourth{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .team .container .row .team-col-fifth{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+    }
+      /*Making staf personal text smaller for certain pixels */  
+    @media screen and (max-width: 1200px) {
+        .team-name{
+        font-family:  'Inconsolata', monospace;
+        font-weight: 500;
+        font-size: 15px; 
+        color: white;
+    }
+    .team-position{
+        font-size: 12px;
+   font-family:  'Inconsolata', monospace;
+   color: white;
+    }
+}
+ /*Removing black back container on staff part when screen is small */
+@media screen and (max-width: 767px) {
+    .black-back{
+        display: none;
+    }
+    .team-name{
+         font-size:20px;
+    }
+    .team-position{
+        font-size:20px;
+    }
+
+}
+ /*Resizing personal staff images to smaller than its actually size
+ 
+ and positioning them in center */
+@media screen and (max-width: 550px) {
+    .team .container .row .team-col-first .card img{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+
+        
+    }
+    .team .container .row .team-col-second .card img{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+
+        
+    }
+    .team .container .row .team-col-third .card img{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+
+        
+    }
+    .team .container .row .team-col-fourth .card img{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+
+        
+    }
+    .team .container .row .team-col-fifth .card img{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+
+        
+    }
+    .team .container .row .team-col-second .card{
+        width: 22rem;
+    }
+    .team .container .row .team-col-third .card{
+        width: 22rem;
+    }
+    .team .container .row .team-col-fourth .card{
+        width: 22rem;
+    }
+    .team .container .row .team-col-fifth .card{
+        width: 22rem;
+    }
+}
+ /*Resizing home text smaller on certain pixels */
+@media screen and (max-width: 1020px) {
+    .description-text{
+        font-size: 25px;
+    }
+}
+ /*Resizing logo img smaller  and moving home text into left not to reduce 
+ join of the home div's
+    */
+@media screen and (max-width: 995px) {
+    .home-logo-img{
+        width: 200px;
+
+    }
+    .home-description{
+        padding-left: 3%;
+    }
+    .container-brands{
+        padding-top: 10%;
+    }
+    
+}
+ /*Resizing home logo bigger */
+@media screen and (max-width: 880px) {
+    .home-logo-img{
+        width: 280px;
+       
+    }
+    .home-description{
+        padding-left: 5%;
+    }
+}
+      /* Change styles for span and cancel button on extra small screens */
+     
+      @media screen and (max-width: 800px) {
+        .home-description{
+            padding-left: 0%;
+        }
+
+        
+        .team .container .row .team-col-first .card .card-body{
+            background-color: #2a2a2a;
+            
+        }
+        .team .container .row .team-col-second .card .card-body{
+            background-color: #2a2a2a;
+            
+        }
+        .team .container .row .team-col-third .card .card-body{
+            background-color: #2a2a2a;
+           
+        }
+        .team .container .row .team-col-fourth .card .card-body{
+            background-color: #2a2a2a;
+            
+        }
+        .team .container .row .team-col-fifth .card .card-body{
+            background-color: #2a2a2a;
+            
+        }
+         .basis-card , .jStudio-card{
+            padding-top: 5%;
+            
+        }
+        .wonderly-card{
+            padding-top: 20%;
+        }
+        .jStudio-card .card-body{
+            opacity: 1;
+            
+            
+        }
+        .basis-card .card-body{
+            opacity: 1;
+            
+            
+        }
+        .wonderly-card .card-body{
+            opacity: 1;
+            
+            
+        }
+        .jStudio-card:hover .brand-jStudio-img{
+            position: relative;
+            transform: translateY(0px);
+            transition: 0.9s;
+            opacity: 0.6;
+         }
+         .basis-card:hover .brand-basis-img{
+            position: relative;
+            transform: translateY(0px);
+            transition: 0.9s;
+            opacity: 0.6;
+         }
+         .wonderly-card:hover .brand-wonderly-img{
+            position: relative;
+            transform: translateY(0px);
+            transition: 0.9s;
+            opacity: 0.6;
+         }
+
+        
+        .home-description{
+            position:relative;
+            left: 0%;
+        }
+        
+        
+         .team-col-second {
+            left: 0%;
+            top: 0%;
+            z-index: 0;
+         }
+         
+           .team-col-fourth {
+            position: relative;
+            z-index: 0;
+            left: 0%;
+
+           }
+           .copyright{
+           
+            padding-right: 2%;
+        }
+        .footer-text{
+            color: #2a2a2ac0;
+            font-weight: 100;
+            font-size: 20px;
+            font-family:  'Inconsolata', monospace;
+            
+        }
+           
+}
